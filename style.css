@@ -18,60 +18,8 @@ h1 {
   margin-top: 0;
 }
 
-.container {
-  width: 80%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.accent-text {
+.section-title {
   color: #87629a;
-}
-
-.three-col {
-  padding: 3em 0;
-}
-
-.two-col {
-  padding: 3em;
-  background-color: #136c72;
-  color: #fff;
-}
-.row {
-  /* display: flex => flex container */
-  display: flex;
-  /*space-between will take any extra space in the container
-  and fill put it between its children */
-  justify-content: space-between;
-
-  gap: 100px;
-}
-
-.col {
-  /* these are now flex items */
-  width: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.hero {
-  padding: 100px 0;
-  background-color: #23424a;
-  color: #fff;
-}
-
-.hero__text {
-  width: 62%;
-}
-
-.hero__img {
-  align-self: flex-start;
-  width: 32%;
-}
-.hero p {
-  margin-bottom: 3em;
 }
 
 .btn {
@@ -90,6 +38,72 @@ h1 {
   opacity: 0.75;
 }
 
-/* .container {
-  border: solid green 2px;
-} */
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.three-col {
+  padding: 3em 0;
+}
+
+.two-col {
+  padding: 3em;
+  background-color: #136c72;
+  color: #fff;
+}
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  /*space-between will take any extra space in the container
+  and fill put it between its children */
+  justify-content: space-between;
+
+  /* gap: 100px; */
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero__text,
+.primary-content {
+  width: 62%;
+}
+
+.hero__img,
+.sidebar {
+  align-self: flex-start;
+  width: 32%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+  font-size: 21px;
+}
+
+.main {
+  margin-top: 3em;
+}
+
+.primary-content {
+}
+
+.sidebar {
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+  background-color: #136c72;
+}
